@@ -51,23 +51,28 @@ function normalize2(cr, cd, error){
     return([100, newNewCd, newClosest[2]]);
 }
 
-function getCv(arr){
+function getCvArr(arr){
     let ans = 0;
     arr[0] < 1 ? ans = (arr[0]*200 + arr[1]*100) : ans = (arr[0]*2 + arr[1]);
     return ans;
 }
 
-console.log("keqing:")
-console.log(normalize(.559, 1.832))
+function getCv(cr, cd){
+    let ans = 0;
+    cr < 1 ? ans = (cr*200 + cd*100) : ans = (cr*2 + cd);
+    return ans;
+}
 
-// console.log("normalized:");
-// console.log(getCv(normalize(.559, 1.832)));
+function label(label, cr, cd, callback){
+    console.log(label);
+    console.log(callback(cr, cd));
+}
 
-// console.log("yae:");
+label("keqing:", .559, 1.832, normalize);
+
+label("yae:", .567, 1.767, normalize);
 // console.log(normalize(.567, 1.767));
 // console.log(getCv([56.7, 176.7]));
 
-// console.log("normalized:");
-// console.log(getCv(normalize(.567, 1.767)))
 
 //console.log(normalize(.4, 3));
