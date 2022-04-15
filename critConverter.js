@@ -71,8 +71,6 @@ function label(label, cr, cd, callback){
 label("keqing:", .559, 1.832, normalize);
 
 label("yae:", .567, 1.767, normalize);
-// console.log(normalize(.567, 1.767));
-// console.log(getCv([56.7, 176.7]));
 
 
 //console.log(normalize(.4, 3));
