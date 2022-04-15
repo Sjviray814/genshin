@@ -57,10 +57,8 @@ function getCv(arr){
     return ans;
 }
 
- //console.log("keqing:")
- //console.log(normalize(.61, 1.168));
-console.log(normalize(.709, 2));
-// console.log(getCv(normalize(.559, 1.832)))
+console.log("keqing:")
+console.log(normalize(.559, 1.832))
 
 // console.log("normalized:");
 // console.log(getCv(normalize(.559, 1.832)));
