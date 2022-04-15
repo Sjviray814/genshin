@@ -1,0 +1,9 @@
+1. find number in normal that is closest to current number in royal
+
+2. find index of number in normal
+
+3. find index of number in royal (you already know this)
+
+4. subtract the value of the index in normal from the value of the index in royal
+
+5. push this value
