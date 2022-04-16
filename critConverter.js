@@ -68,9 +68,10 @@ function label(label, cr, cd, callback){
     console.log(callback(cr, cd));
 }
 
-label("keqing:", .559, 1.832, normalize);
+//label("keqing:", .559, 1.832, normalize);
 
-label("yae:", .567, 1.767, normalize);
+// label("yae:", .567, 1.767, normalize);
 
-
+//label("yae:", .549, 2.093, normalize);
+label("lumine", .689, 1.805, normalize);
 //console.log(normalize(.4, 3));
